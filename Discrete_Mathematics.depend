@@ -1,0 +1,8 @@
+# depslib dependency file v1.0
+1436321651 source:/home/geek/Documents/workplace/Discrete_Mathematics/main.cpp
+	<iostream>
+	"infinitePrimes.h"
+
+1436322526 source:/home/geek/Documents/workplace/Discrete_Mathematics/src/infinitePrime.cpp
+	"infinitePrimes.h"
+
