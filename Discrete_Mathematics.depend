@@ -6,3 +6,15 @@
 1436322526 source:/home/geek/Documents/workplace/Discrete_Mathematics/src/infinitePrime.cpp
 	"infinitePrimes.h"
 
+1436786891 source:/home/sumit/Documents/Github For Algorithms/Discrete_Mathematics/main.cpp
+	<iostream>
+	"infinitePrimes.h"
+	"towerOfHanoiUsingFour.h"
+
+1436784523 source:/home/sumit/Documents/Github For Algorithms/Discrete_Mathematics/src/infinitePrime.cpp
+	"infinitePrimes.h"
+
+1436787014 source:/home/sumit/Documents/Github For Algorithms/Discrete_Mathematics/src/towerOfHanoiUsingFour.cpp
+	"towerOfHanoiUsingFour.h"
+	<iostream>
+
