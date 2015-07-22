@@ -5,7 +5,7 @@ using namespace std;
 
 void calculateRecursively(int a,int b,int count,int **memoize){
     if(b==0){
-        return;
+        return count;
     }else{
         int q=a/b;
         int r=a%b;
@@ -41,18 +41,20 @@ void calculateRecursively(int a,int b,int count,int **memoize){
   *
   * @todo: document this function
   */
-void calculateCoefficients(int a, int b)
+int[][] calculateCoefficients(int a, int b)
 {
     int **mem;
     mem=new int*[100];
     for(int i=0;i<100;i++){
         mem[i]=new int[2];
     }
-    calculateRecursively(a,b,0,mem);
+    int c=calculateRecursively(a,b,0,mem);
     for(int i=0;i<100;i++){
         for(int j=0;j<2;j++){
             cout<<mem[i][j]<<",";
         }
         cout<<endl;
     }
+    int ret[1][2]={mem[c][0],mem[c][1]};
+    return ret;
 }
