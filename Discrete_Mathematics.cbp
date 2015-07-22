@@ -32,9 +32,11 @@
 			<Add option="-Wall" />
 			<Add option="-fexceptions" />
 		</Compiler>
+		<Unit filename="include/calculateCoefficients.h" />
 		<Unit filename="include/infinitePrimes.h" />
 		<Unit filename="include/towerOfHanoiUsingFour.h" />
 		<Unit filename="main.cpp" />
+		<Unit filename="src/calculateCoefficients.cpp" />
 		<Unit filename="src/infinitePrime.cpp" />
 		<Unit filename="src/towerOfHanoiUsingFour.cpp" />
 		<Extensions>
